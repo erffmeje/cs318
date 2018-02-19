@@ -26,23 +26,22 @@ body {
 }
 
 #Germany {
-    background-image: url(Germany.jpg), url(germany_f.png);
-    background-position: center, top right; 
+    background-image: url(germany_f.png), url(germany.jpg);
+    background-position: top right, center; 
     background-repeat: no-repeat, no-repeat; 
-    background-size: auto 300px; 
+    background-size: 50px 50px, auto 300px; 
 }
 
 #Switzerland {
-    background-image: url(Switzerland.jpg), url(switzerland_f.png);
-    background-position: center, top right; 
+    background-image: url(switzerland_f.png), url(switzerland.jpg);
+    background-position: top right, center; 
     background-repeat: no-repeat, no-repeat; 
-    background-size: auto 300px; 
+    background-size: 50px 50px, auto 300px;  
 }
 
 #Italy {
-    background-image: url(Italy.jpg), url(italy_f.png);
-    background-position: center, top right; 
+    background-image: url(Italy_f.png), url(Italy.jpg);
+    background-position: top right, center; 
     background-repeat: no-repeat, no-repeat; 
-    background-size: auto 300px, 10px 10px; 
-
+    background-size: 50px 50px, auto 300px; 
 }
