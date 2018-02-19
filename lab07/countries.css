@@ -40,7 +40,7 @@ body {
 }
 
 #Italy {
-    background-image: url(Italy_f.png), url(Italy.jpg);
+    background-image: url(italy_f.png), url(italy.jpg);
     background-position: top right, center; 
     background-repeat: no-repeat, no-repeat; 
     background-size: 50px 50px, auto 300px; 
