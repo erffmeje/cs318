@@ -14,7 +14,7 @@ body {
     border: green; 
     border-style: dashed;
     border-width: 4px;
-    box-shadow: 5px, 50px red; 
+    box-shadow: 5px, 10px red; 
     padding: 10px;
 }
 
