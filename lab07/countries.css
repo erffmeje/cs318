@@ -14,7 +14,7 @@ body {
     border: green; 
     border-style: dashed;
     border-width: 4px;
-    box-shadow: 5px, 10px red; 
+    filter: drop-shadow(5px 5px 5px); 
     padding: 10px;
 }
 
