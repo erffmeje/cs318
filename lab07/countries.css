@@ -13,9 +13,12 @@ body {
     margin: 10px;
     border: green; 
     border-style: dashed;
-    border-width: 4px;
-    filter: drop-shadow(5px 5px 5px black); 
+    border-width: 4px; 
     padding: 10px;
+}
+
+div { 
+    box-shadow: 10px 10px 5px;
 }
 
 #Poland {
