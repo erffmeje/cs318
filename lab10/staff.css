@@ -1,0 +1,20 @@
+* { 
+    box-sizing: border-box;
+}
+
+#Chen {
+
+    background-image: url(chen.jpg);
+    background-repeat: no-repeat; 
+  
+    height: auto;
+    width: auto;
+}
+
+.photo {
+ display: inline-block;   
+ height: 200px; 
+ width: 200px; 
+
+
+}
