@@ -1,8 +1,16 @@
 * {
     box-sizing: border-box;
 }
-
-
+/*
+.fire {
+    align-content: center; 
+    position: fixed;
+    width: 100%;
+    display: block; 
+    margin-bottom: 0; 
+    margin-top: 0;
+}
+/*
 #fire {
     background-image: url(http://www.pngmart.com/files/1/Fire-Flame-Transparent-Background.png);
     background-repeat: repeat;
@@ -13,8 +21,20 @@
     align-content: center;
     height: 250px; 
     width: 100%;
-
 }
+*/
+
+#fire {
+    background-image: url(http://www.pngmart.com/files/1/Fire-Flame-Transparent-Background.png);
+    background-repeat: repeat;
+}
+.fire {
+    background-attachment: fixed;
+    background-position: bottom;
+    height: 100vh; 
+    width: 100vw;
+    }
+
 
 
 
@@ -50,5 +70,14 @@ h1 {
 }
 
 
+.box {
+        position: relative; 
+        border-width: 0 0 0 10px; 
+        border-radius: 20px; 
+        border-style: solid; 
+        border-color: goldenrod;
+        margin-bottom: 5px;
+        padding: 1px;  
+}
 
 
