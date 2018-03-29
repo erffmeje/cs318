@@ -10,7 +10,6 @@ margin-bottom: 0;
     position: fixed; 
     display: block;
     align-content: center;
-    align-content: bottom;
     height: 250px; 
     width: 100%;
 }
@@ -37,7 +36,7 @@ h1 {
 #links {
     height: 235px; 
     width: 150px; 
-    position: absol;
+    position: absolute;
     float: right;
     border-radius: 20px;
     background-color: goldenrod;
