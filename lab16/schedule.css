@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box; 
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black; 
+    height: 5em;
+    width: 10em;
+    text-align: center;
+}

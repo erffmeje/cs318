@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    background: pink;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+th {
+    color: purple;
+    font-size: 16pt;
+    text-align: center;
+    width: 50em;
+}
+
+table {
+    background-color: aquamarine;
+    border: 5px dashed plum;
+    border-collapse: collapse;
+
+}
+
+td {
+    border: 2px solid purple;
+    width: 50em;
+    height: 5em;
+    text-align: center;
+}
