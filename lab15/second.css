@@ -1,39 +1,18 @@
 * {
     box-sizing: border-box;
 }
-/*
-.fire {
-    align-content: center; 
-    position: fixed;
-    width: 100%;
-    display: block; 
-    margin-bottom: 0; 
-    margin-top: 0;
-}
-/*
-#fire {
+
+footer {
     background-image: url(http://www.pngmart.com/files/1/Fire-Flame-Transparent-Background.png);
     background-repeat: repeat;
     background-position: bottom;
-    margin-bottom: 0;
+margin-bottom: 0; 
     position: fixed; 
     display: block;
     align-content: center;
     height: 250px; 
     width: 100%;
 }
-*/
-
-#fire {
-    background-image: url(http://www.pngmart.com/files/1/Fire-Flame-Transparent-Background.png);
-    background-repeat: repeat;
-}
-.fire {
-    background-attachment: fixed;
-    background-position: bottom;
-    height: 100vh; 
-    width: 100vw;
-    }
 
 
 
@@ -49,7 +28,7 @@ h1 {
 }
 
 .text {
-    color: white;
+    color: white; 
     font-size: 16pt;
 }
 
@@ -79,5 +58,3 @@ h1 {
         margin-bottom: 5px;
         padding: 1px;  
 }
-
-
