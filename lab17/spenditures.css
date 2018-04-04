@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0; 
+}
+
+header {
+    color: white; 
+    background-color: maroon; 
+    width: 100%;
+    border: none;
+padding: 1px 0 1px 5px;
+margin: 0;
+}
+
+nav {
+    border: 1px solid white;
+    background-color: navy;
+}
+
+nav ul {
+    color: white;
+    border-right: white;
+    list-style-type: none;
+    margin: 0; 
+    padding: 10px;
+}
+
+
+.menu {
+    position: relative;
+    display: inline;
+    border-right: 1px solid white;
+    padding: 10px 10px 10px 10px;
+    margin: 0; 
+
+}
+
+.menu:hover {
+    cursor: pointer; 
+    background-color: rgb(63, 62, 62); 
+}
+
+.menu:hover ul {
+    display: block;
+}
+
+.menu ul {
+    position: absolute;
+    text-align: left; 
+    top: 100%;
+    background-color: rgb(63, 62, 62); 
+    padding: 5px;
+  display: none;
+box-shadow: 2px 2px 10px 1px black;
+margin: 0;
+
+}
+
+.menu li a {
+text-decoration: none; 
+color: white; 
+display: block; 
+padding: 1px 100px 5px 5px;
+border-bottom: 1px solid white;
+}
+
+.menu ul li:last-child a {
+    border-bottom: none;
+}
+
+.menu li:hover {
+    background-color: gray;
+
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+   }
+
+   table {
+    border-collapse: collapse;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+
+   }
+
+   th:first-child {
+       text-align: left;
+   }
+
+   td:nth-child(2) {
+       text-align: right;
+   }
+
+
+
+   @media (max-width: 600px) {
+    nav {
+       display: none;
+    }
+
+    .menu {
+        position: absolute; 
+        top: 0;
+        right: 0; 
+        bottom: 0; 
+        border-right: none;
+        border-left: 1px solid white;
+        
+    }
+   }
