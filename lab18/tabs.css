@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+color: whitesmoke; 
+}
+.tab {
+    background-color: lightblue; 
+    display: inline-block; 
+    width: 100px; 
+    padding: 10px; 
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    cursor: pointer;
+    outline: none;
+    margin: 0; 
+    border: none;
+    color: black;
+}
+
+.tab:focus {
+    background-color: blue; 
+    color: whitesmoke;
+}
+
+#panel0 {
+    background-color: lightblue; 
+    display: block; 
+    
+}
+
+.parent {
+    position: relative;
+    display: inline-block;
+
+
+}
+
+.panel {
+    position: absolute;
+    left: 0; 
+    background-color: blue;
+    display: none;
+    margin: 0; 
+    height: auto; 
+    padding: 20px;
+    border: none;
+    margin-left: 8px;
+    width: 308px; 
+}
+
+#tab1:focus ~ #panel1 {
+    display: block; 
+    left: 0; 
+
+}
+
+img {
+    height: 100px; 
+    width: 200px;
+  
+}
+
+#tab2:focus ~ #panel2 {
+    display: block; 
+}
+
+#tab3:focus ~ #panel3 {
+    display: block; 
+}
