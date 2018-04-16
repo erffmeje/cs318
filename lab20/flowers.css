@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+img {
+   width: 129px; 
+   height: 129px;
+    float: left;
+    margin: 10px;
+}
+
+img:nth-child(4n+1) {
+    clear: both; 
+}
+
+
+div:hover > img{
+   opacity: .1;
+}
+
+img:hover {
+opacity: 1; 
+transform: scale (150%, 150%); 
+transform: rotate(180deg);
+}
+
+
+
+/* 
+
+#flowerbed image:hover {
+    opacity: 10%;
+}
+
+img:hover {
+opacity: 10%
+} */

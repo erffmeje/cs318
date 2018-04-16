@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.card {
+    display: inline-block;
+    width: 200px; 
+    position: absolute;
+}
+
+.card:nth-child(2) {
+    left: 100px;
+}
+
+.card:nth-child(3) {
+    left: 200px;
+}
+
+.card:nth-child(4) {
+    left: 300px;
+}
+
+.card:nth-child(5) {
+    left: 400px;
+}
+
+
+img {
+    width: 100%;
+ }
+
+ .hand {
+     position: relative;
+     display: block;
+     margin-left: auto;
+     margin-right: auto; 
+     width: 600px;
+
+ }
+
+ input {
+    position: absolute;
+    bottom: 5px;
+ }
+
+ input, img {
+    transform: translate(0, 0);
+    transition-property: transform; 
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    z-index: 100;
+ }
+
+ input:checked, input:checked + img {
+    transform: translate(0, 50px);
+    transition-property: transform; 
+    transition-duration: 500ms;
+    z-index: 100;
+    transition-timing-function: ease-in-out;
+ }
