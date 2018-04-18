@@ -29,7 +29,7 @@ div:hover > img{
    opacity: .1;
 }
 
-#flower:hover {
+.flower:hover {
 opacity: 1; 
 transition-property: transform;
 transform: scale(1.5, 1.5) rotate(180deg);
