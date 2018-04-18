@@ -13,6 +13,13 @@ img {
     margin: 10px;
 }
 
+#flowerbed {
+    position: absolute;
+    top :50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+ }
+
 img:nth-child(4n+1) {
     clear: both; 
 }
@@ -22,20 +29,16 @@ div:hover > img{
    opacity: .1;
 }
 
-img:hover {
+#flower:hover {
 opacity: 1; 
-transform: scale (150%, 150%); 
-transform: rotate(180deg);
+transition-property: transform;
+transform: scale(1.5, 1.5) rotate(180deg);
+transition-duration: 2s;
+transition-timing-function: ease-in-out;
 }
 
-
-
-/* 
-
-#flowerbed image:hover {
-    opacity: 10%;
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0; 
 }
-
-img:hover {
-opacity: 10%
-} */
