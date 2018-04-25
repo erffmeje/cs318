@@ -19,6 +19,7 @@ nav {
     display: block;
     margin-right: auto;
     margin-left: auto;
+    width: 41%;
 }
 
 div {
@@ -31,8 +32,8 @@ button {
     color: whitesmoke;
     border: none;
     margin: 0;
-    margin-right: 10px;
-    text-align: center; 
+    /* margin-right: 10px; */
+    text-align: left; 
     padding: 18px 32px; 
     font-size: 16pt;
     text-decoration: none;
@@ -46,6 +47,10 @@ a {
  }
  #header {
     color: black;
+}
+
+ul {
+    padding:0;
 }
 
 li {
@@ -68,7 +73,7 @@ li {
     text-decoration: none; 
     color: whitesmoke; 
     display: block; 
-    padding: 1px 0 5px 5px;
+    padding: 1px 0 5px 0;
     cursor: pointer;
     }
 
@@ -86,6 +91,7 @@ event a {
     padding: 5px 0 5px 0;
     border: 1px;
     left: 0;
+    right: 0;
 }
 
 footer {
@@ -160,7 +166,7 @@ main {
         background-image: url(flag.png);
         background-position: left; 
         background-repeat: no-repeat; 
-        background-size: auto 150px;
+        background-size: 150px 150px;
         padding-left: 175px;
         padding-right: 50px;
     }
@@ -240,6 +246,7 @@ main {
 #contactheader h2 {
 font-size: 30pt;
 font-family: 'UnifrakturCook', cursive;
+margin-left: 0;
 
 }
 
