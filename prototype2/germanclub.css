@@ -31,44 +31,58 @@ nav {
     margin-right: auto;
     margin-left: auto;
     background-color: #cd0000;
-    width: 30%;
+    font-family: 'PT Sans', sans-serif;
 }
 
 #navbackground {
     background-color: #cd0000;
     width: 100%;
+    padding: 10px;
 }
 div {
     display: inline-block;
     position: relative;
 }
 
-button {
+/* button {
     background-color: #cd0000;
     color: whitesmoke;
     border: none;
     margin-right: auto;
     margin-left: 0;
     /* margin-right: 10px; */
-    text-align: left; 
+    /* text-align: left; 
     padding: 18px 32px; 
     font-size: 16pt;
     text-decoration: none;
     cursor: pointer;
-}
+} */ 
 
-/* .buttons {
+.buttons {
     display: block;
     margin-right: auto; 
     margin-left: auto;
     width: 50%;
-} */
+    padding: 5px;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20pt;
+    font-family: 'PT Sans', sans-serif;
+    align-content: center;
+    margin-left: auto;
+ }
 
 a {
     text-decoration: none;
     color: whitesmoke;
     cursor: pointer;
  }
+
  #header {
     color: goldenrod;
 }
@@ -82,27 +96,6 @@ li {
 }
 
 
-/* .siff {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: rgb(63, 62, 62); 
-    display: none;
-    box-shadow: 2px 5px 10px 1px black;
-    margin: 0;
-    padding: 5px;
-}
-
-.siff li a {
-    text-decoration: none; 
-    color: whitesmoke; 
-    display: block; 
-    padding: 1px 0 5px 0;
-    cursor: pointer;
-    } */
-
-
-
 event a {
     display: block; 
     padding: 5px 5px;
@@ -110,31 +103,33 @@ event a {
     cursor: pointer;
 }
 
-/* .events:hover .siff {
-    display: block;
-    padding: 5px 0 5px 0;
-    border: 1px;
-    left: 0;
-    right: 0;
-} */
 
 main {
     min-width:75vh;
 }
 
-footer {
-    text-align: center;
+p {
+    font-family: 'PT Sans', sans-serif;
 }
 
-@media (max-width: 600px) {
+label {
+    font-family: 'PT Sans', sans-serif;
+}
+
+footer {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* @media (max-width: 600px) {
     nav {
         display: block;
         margin-right: auto;
         margin-left: auto;
-        /* margin: 0; */
+        margin: 0;
         padding: 10px;
         height: 100%;
-        width: 300px;
+        width: 400px;
         align-content: center;
     }
 main {
@@ -142,18 +137,56 @@ main {
     margin: 0;
 }
 
+} */
+
+
+#mobile {
+    display: none;
 }
 
+@media (max-width: 600px) {
+    nav {
+        float: left;
+        margin: 0;
+        padding: 10px;
+        height: 100%;
+        width: 300px;
+    }
+
+    #navbackground {
+        display: none;
+    }
+
+main {
+    width: 100%;
+    margin: 0;
+}
+
+#mobile {
+    display: inline-block;
+   background-color: #cd0000;
+   width: 100%;
+}
+
+
+}
+
+
+
+/* INDEX PAGE */
+#index {
+    text-align: center;
+
+}
 
 /* PRESIDENTS PAGE */
 
 
 .bio {
     width: 90%;
-    font-family: 'Oxygen', sans-serif;
     min-width: 400px;
     margin-left: 20px;
-
+    font-family: "PT", sans-serif;
 }
 
 #presidentsheader h2 {
@@ -170,7 +203,7 @@ h2 {
 
     #hannah {
         margin-right: auto;
-        background-image: url(hannah.jpg);
+        background-image: url(images/hannah.jpg);
         background-position: left; 
         background-repeat: no-repeat; 
         background-size: auto 150px;
@@ -217,7 +250,7 @@ h2 {
 
 .event {
     width: 90%;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     min-width: 400px;
     padding-left: 300px;
     margin-left: 20px;
@@ -283,7 +316,7 @@ font-size: 30pt;
 
 .iff {
     width: 90%;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     min-width: 400px;
     margin-left: 20px;
 
@@ -340,7 +373,7 @@ form {
 
 .contact {
     width: 90%;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     min-width: 400px;
     margin-left: 20px;
 

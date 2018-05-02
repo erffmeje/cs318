@@ -69,7 +69,7 @@ main {
     display: inline-block;
 }
 
-#Numbers {
+.buttons {
     display: none;
 }
 
