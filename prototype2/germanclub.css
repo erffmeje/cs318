@@ -14,6 +14,7 @@ h1 {
     background-color: black;
     padding: 10px;
     margin: 0;
+    width: 100%;
 }
 
 
@@ -30,6 +31,7 @@ nav {
     display: block;
     margin-right: auto;
     margin-left: auto;
+    width: 100%;
     background-color: #cd0000;
     font-family: 'PT Sans', sans-serif;
 }
@@ -37,44 +39,31 @@ nav {
 #navbackground {
     background-color: #cd0000;
     width: 100%;
-    padding: 10px;
+    padding: 0;
+    text-align: center;
+    margin: 0;
 }
 div {
     display: inline-block;
     position: relative;
 }
 
-/* button {
-    background-color: #cd0000;
-    color: whitesmoke;
-    border: none;
-    margin-right: auto;
-    margin-left: 0;
-    /* margin-right: 10px; */
-    /* text-align: left; 
-    padding: 18px 32px; 
-    font-size: 16pt;
-    text-decoration: none;
-    cursor: pointer;
-} */ 
 
-.buttons {
+.nav {
     display: block;
     margin-right: auto; 
     margin-left: auto;
-    width: 50%;
-    padding: 5px;
+    width: 100%;
+    align-content: center;
 }
 
-.buttons a {
+.nav a {
     text-decoration: none;
     color: whitesmoke;
     cursor: pointer;
     padding: 10px;
     font-size: 20pt;
     font-family: 'PT Sans', sans-serif;
-    align-content: center;
-    margin-left: auto;
  }
 
 a {
@@ -108,8 +97,19 @@ main {
     min-width:75vh;
 }
 
+h2 {
+    font-size: 20pt;
+}
+
+#aboutus {
+    font-family: 'UnifrakturCook', cursive;  
+    margin-left: 20px;
+    padding-left:0; 
+    font-size: 30pt;
+}
 p {
     font-family: 'PT Sans', sans-serif;
+    font-size: 14pt;
 }
 
 label {
@@ -136,7 +136,6 @@ main {
     width: calc(100% - 300px);
     margin: 0;
 }
-
 } */
 
 
@@ -147,26 +146,35 @@ main {
 @media (max-width: 600px) {
     nav {
         float: left;
+        display: block;
+        /* margin-right: auto;
+        margin-left: auto; */
         margin: 0;
-        padding: 10px;
+        background-color: #cd0000;
+        font-family: 'PT Sans', sans-serif;
+        padding: 0;
         height: 100%;
-        width: 300px;
+        width: 100%;
+        font-size: 20pt;
     }
 
     #navbackground {
         display: none;
     }
 
+    #mobile {
+        display: inline-block;
+       background-color: #cd0000;
+       width: 100%;
+       text-align: center;
+    }
+
 main {
-    width: 100%;
+    width: calc(100% - 300px);
     margin: 0;
 }
 
-#mobile {
-    display: inline-block;
-   background-color: #cd0000;
-   width: 100%;
-}
+
 
 
 }
@@ -195,11 +203,6 @@ main {
     padding-left:0; 
     font-size: 30pt;
 }
-
-h2 {
-    font-size: 20pt;
-}
-
 
     #hannah {
         margin-right: auto;
