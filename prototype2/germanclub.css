@@ -143,7 +143,7 @@ main {
     display: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     nav {
         float: left;
         display: block;
@@ -170,11 +170,13 @@ main {
     }
 
 main {
-    width: calc(100% - 300px);
+    width: 100%;
     margin: 0;
 }
 
-
+#imagecontact {
+    display: none;
+}
 
 
 }
@@ -206,7 +208,7 @@ main {
 
     #hannah {
         margin-right: auto;
-        background-image: url(images/hannah.jpg);
+        background-image: url(images\hannah.jpg);
         background-position: left; 
         background-repeat: no-repeat; 
         background-size: auto 150px;
@@ -220,7 +222,7 @@ main {
     
     #kanu {
         margin-right: auto;
-        background-image: url(flag.png);
+        background-image: url(images\flag.png);
         background-position: left; 
         background-repeat: no-repeat; 
         background-size: 150px 150px;
@@ -234,7 +236,7 @@ main {
 
     #michelle {
         margin-right: auto;
-        background-image: url(flag.png);
+        background-image: url(images\flag.png);
         background-position: left; 
         background-repeat: no-repeat; 
         background-size: 150px 150px;
@@ -272,7 +274,7 @@ font-size: 30pt;
 
 #stammtisch {
     margin-right: auto;
-    background-image: url(cloud.png);
+    background-image: url(images\cloud.png);
     background-position: left; 
     background-repeat: no-repeat; 
     background-size: 150px 150px;
@@ -286,7 +288,7 @@ font-size: 30pt;
 
 #movies {
     margin-right: auto;
-    background-image: url(flag.png);
+    background-image: url(images\flag.png);
     background-position: left; 
     background-repeat: no-repeat; 
     background-size: 150px 150px;
@@ -301,7 +303,7 @@ font-size: 30pt;
 
 #iff {
     margin-right: auto;
-    background-image: url(flag.png);
+    background-image: url(images\flag.png);
     background-position: left; 
     background-repeat: no-repeat; 
     background-size: 150px 150px;
@@ -331,8 +333,13 @@ font-family: 'UnifrakturCook', cursive;
 margin-left: 0;
 }
 
+
 #iffform h2 {
     margin-left: 20px;
+}
+
+#imageiff {
+    float: right;
 }
 
 label {
@@ -386,6 +393,10 @@ form {
 font-size: 30pt;
 font-family: 'UnifrakturCook', cursive;
 
+}
+
+#imagecontact {
+    margin-left: 100px; 
 }
 
 label {
