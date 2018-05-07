@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -208,7 +209,7 @@ main {
 
     #hannah {
         margin-right: auto;
-        background-image: url(https://github.com/erffmeje/cs318/blob/master/prototype2/images/hannah.jpg);
+        background-image: url(images/hannah.jpg);
         background-position: left; 
         background-repeat: no-repeat; 
         background-size: auto 150px;
@@ -222,7 +223,7 @@ main {
     
     #kanu {
         margin-right: auto;
-        background-image: url(images\flag.png);
+        background-image: url(images/flag.png);
         background-position: left; 
         background-repeat: no-repeat; 
         background-size: 150px 150px;
@@ -236,7 +237,7 @@ main {
 
     #michelle {
         margin-right: auto;
-        background-image: url(images\flag.png);
+        background-image: url(images/flag.png);
         background-position: left; 
         background-repeat: no-repeat; 
         background-size: 150px 150px;
@@ -274,7 +275,7 @@ font-size: 30pt;
 
 #stammtisch {
     margin-right: auto;
-    background-image: url(images\cloud.png);
+    background-image: url(images/cloud.png);
     background-position: left; 
     background-repeat: no-repeat; 
     background-size: 150px 150px;
@@ -288,7 +289,7 @@ font-size: 30pt;
 
 #movies {
     margin-right: auto;
-    background-image: url(images\flag.png);
+    background-image: url(images/flag.png);
     background-position: left; 
     background-repeat: no-repeat; 
     background-size: 150px 150px;
@@ -303,7 +304,7 @@ font-size: 30pt;
 
 #iff {
     margin-right: auto;
-    background-image: url(images\flag.png);
+    background-image: url(images/flag.png);
     background-position: left; 
     background-repeat: no-repeat; 
     background-size: 150px 150px;
