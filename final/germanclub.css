@@ -310,7 +310,7 @@ input {
 }
 
 input:focus {
-    outline: 3pt solid skyblue;
+    outline: 3pt solid #cd0000;
 
 }
 
@@ -338,10 +338,6 @@ input:focus {
 
 form {
     text-align: left;
-}
-
-#iffform {
-    float: left;
 }
 
 
