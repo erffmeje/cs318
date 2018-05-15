@@ -1,0 +1,402 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: goldenrod;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'UnifrakturCook', cursive;
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+}
+
+
+
+/* nav {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    background-color: #cd0000;
+} */
+
+nav {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    background-color: #cd0000;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#navbackground {
+    background-color: #cd0000;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+div {
+    display: inline-block;
+    position: relative;
+}
+
+
+.nav {
+    display: block;
+    margin-right: auto; 
+    margin-left: auto;
+    width: 100%;
+    align-content: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20pt;
+    font-family: 'PT Sans', sans-serif;
+ }
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+ }
+
+ #header {
+    color: goldenrod;
+}
+
+ul {
+    padding:0;
+}
+
+li {
+    list-style: none;
+}
+
+
+event a {
+    display: block; 
+    padding: 5px 5px;
+    text-align: left;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 20pt;
+    font-family: 'PT Sans', sans-serif; 
+}
+
+#aboutus {
+    font-family: 'PT Sans', sans-serif;  
+    margin-left: 20px;
+    padding-left:0; 
+    font-size: 30pt;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14pt;
+}
+
+label {
+    font-family: 'PT Sans', sans-serif;
+}
+
+footer {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+#mobile {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    nav {
+        font-family: 'PT Sans', sans-serif;
+        height: 100%;
+        width: 100%;
+        font-size: 20pt;
+    }
+
+    #navbackground {
+        display: none;
+    }
+
+  #mobile {
+        display: inline-block;
+       background-color: #cd0000;
+       width: 100%;
+       margin: 0;
+       text-align: center;
+       overflow: hidden;
+       padding: 10px;
+    }
+
+main {
+    width: 100%;
+}
+
+#imagecontact {
+    display: none;
+}
+
+}
+
+
+
+/* INDEX PAGE */
+#index {
+    text-align: center;
+
+}
+
+/* PRESIDENTS PAGE */
+
+
+.bio {
+    width: 90%;
+    min-width: 400px;
+    margin-left: 20px;
+    font-family: "PT", sans-serif;
+}
+
+#presidentsheader h2 {
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 20px;
+    padding-left:0; 
+    font-size: 30pt;
+}
+
+    #hannah {
+        margin-right: auto;
+        background-image: url(images/hannah.jpg);
+        background-position: left; 
+        background-repeat: no-repeat; 
+        background-size: auto 150px;
+        padding-left: 175px;
+        padding-right: 50px;
+    }
+
+       
+    #kanu {
+        margin-right: auto;
+        background-image: url(images/flag.png);
+        background-position: left; 
+        background-repeat: no-repeat; 
+        background-size: 150px 150px;
+        padding-left: 175px;
+        padding-right: 50px;
+    }
+
+    #michelle {
+        margin-right: auto;
+        background-image: url(images/flag.png);
+        background-position: left; 
+        background-repeat: no-repeat; 
+        background-size: 150px 150px;
+        padding-left: 175px;
+        padding-right: 50px;
+    }
+
+
+/* Events PAGE */
+
+.event {
+    width: 90%;
+    font-family: 'PT Sans', sans-serif;
+    min-width: 400px;
+    padding-left: 300px;
+    margin-left: 20px;
+
+}
+
+#eventsheader h2 {
+font-family: 'PT Sans', sans-serif; 
+margin-left: 20px; 
+font-size: 30pt;
+}
+
+.eventparagraph {
+    margin-left: 20px;
+}
+
+.description {
+    font-size: 14pt;
+    font-weight: normal;
+}
+
+#stammtisch {
+    margin-right: auto;
+    background-image: url(images/cloud.png);
+    background-position: left; 
+    background-repeat: no-repeat; 
+    background-size: 150px 150px;
+    padding-left: 175px;
+    padding-right: 50px;
+}
+
+#movies {
+    margin-right: auto;
+    background-image: url(images/flag.png);
+    background-position: left; 
+    background-repeat: no-repeat; 
+    background-size: 150px 150px;
+    padding-left: 175px;
+    padding-right: 50px;
+}
+
+#iff {
+    margin-right: auto;
+    background-image: url(images/iff.jpg);
+    background-position: left; 
+    background-repeat: no-repeat; 
+    background-size: 125px 150px;
+    padding-left: 175px;
+    padding-right: 50px;
+ }
+
+#iff h2 {
+    font-family: 'PT Sans', sans-serif; 
+    color: black;
+}
+
+
+/* IFF PAGE */
+
+.iff {
+    width: 90%;
+    font-family: 'PT Sans', sans-serif;
+    min-width: 400px;
+    margin-left: 20px;
+
+}
+
+#ifflink {
+font-size: 30pt;
+font-family: 'PT Sans', sans-serif; 
+margin-left: 0;
+}
+
+
+#iffform h2 {
+    margin-left: 20px;
+}
+
+#imageiff {
+    float: right;
+}
+
+label {
+    display: block;
+    padding: 5px 0 5px 0;
+}
+
+input {
+    font-size: 15pt;
+    border: none;
+}
+
+input:focus {
+    outline: 3pt solid skyblue;
+
+}
+
+#textarea {
+    font-size: 15pt;
+    width: 330px;
+    height: 200px;
+    border: 1px solid grey;
+    margin: 20px;
+    margin-bottom: 0;
+    left: 0;
+}
+
+#iffsubmit {
+    background-color: #cd0000;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 330px;
+    color: whitesmoke;
+    font-size: 14pt;
+    text-align: center;
+    margin: 1px 0 5px 20px;
+}
+
+form {
+    text-align: left;
+}
+
+#iffform {
+    float: left;
+}
+
+
+/* Contact PAGE */
+
+.contact {
+    width: 90%;
+    font-family: 'PT Sans', sans-serif;
+    min-width: 400px;
+    margin-left: 20px;
+}
+
+#imagecontact {
+    margin-left: 100px; 
+}
+
+label {
+    display: block;
+    padding: 5px 0 5px 0;
+}
+
+input {
+    font-size: 15pt;
+    border: none;
+}
+
+input:focus {
+    outline: 3pt solid skyblue;
+
+}
+
+#textarea {
+    font-size: 15pt;
+    width: 330px;
+    height: 200px;
+    border: 1px solid grey;
+    margin: 20px;
+    margin-bottom: 0;
+    left: 0;
+}
+
+#contactsubmit {
+    background-color: #cd0000;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 330px;
+    color: whitesmoke;
+    font-size: 14pt;
+    text-align: center;
+    margin: 1px 0 5px 20px;
+}
+
+form {
+    text-align: left;
+    margin-left: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
